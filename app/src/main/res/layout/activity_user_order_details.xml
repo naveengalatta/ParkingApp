@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserOrderDetails">
+
+    <TextView
+        android:id="@+id/auo_booking_id_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:text="Booking ID -"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="2dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_booking_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/auo_booking_id_title"
+        android:hint="Booking Id"
+        android:textSize="20sp"
+        android:padding="2dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_parking_center_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/auo_booking_id"
+        android:text="Paking Centre -"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="2dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_parking_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/auo_booking_id"
+        android:layout_toRightOf="@+id/auo_parking_center_title"
+        android:hint="Parking Center"
+        android:textSize="20sp"
+        android:padding="2dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_parking_address_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/auo_parking_center"
+        android:text="Parking Address -"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="2dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_parking_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/auo_parking_center"
+        android:layout_toRightOf="@+id/auo_parking_address_title"
+        android:hint="Parking Address -"
+        android:textSize="20sp"
+        android:padding="2dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_vehicle_number_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/auo_parking_address"
+        android:text="Vehicle Number -"
+        android:textSize="20sp"
+        android:padding="2dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_vehicle_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/auo_parking_address"
+        android:layout_toRightOf="@+id/auo_vehicle_number_title"
+        android:hint="Vehicle Number"
+        android:textSize="20sp"
+        android:padding="2dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_category_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/auo_vehicle_number"
+        android:text="Category -"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="2dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/auo_vehicle_number"
+        android:layout_toRightOf="@+id/auo_category_title"
+        android:hint="Category"
+        android:textSize="20sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_date_of_booking_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/auo_category"
+        android:text="Booking Date -"
+        android:textSize="20sp"
+        android:padding="2dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_date_of_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/auo_category"
+        android:layout_toRightOf="@+id/auo_date_of_booking_title"
+        android:hint="Booking Date"
+        android:textSize="20sp"
+        android:padding="2dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_total_hours_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/auo_date_of_booking"
+        android:text="Total Hours -"
+        android:textSize="20sp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_total_hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/auo_date_of_booking"
+        android:layout_toRightOf="@+id/auo_total_hours_title"
+        android:hint="Total Hours"
+        android:textSize="20sp"
+        android:padding="2dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_total_charges_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/auo_total_hours"
+        android:text="Total Amount -"
+        android:textSize="20sp"
+        android:padding="2dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+    <TextView
+        android:id="@+id/auo_total_charges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/auo_total_hours"
+        android:layout_toRightOf="@+id/auo_total_charges_title"
+        android:hint="Total Amount"
+        android:textSize="20sp"
+        android:padding="2dp">
+    </TextView>
+
+</RelativeLayout>

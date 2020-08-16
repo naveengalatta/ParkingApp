@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ParkingApp</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string-array name="questions">
+        <item>What is your pet name?</item>
+        <item>What was your childhood nickname?</item>
+        <item>What is the name of your hometown?</item>
+        <item>In what city were you born?</item>
+        <item>Who was your childhood hero?</item>
+        <item>What is your preferred musical genre?</item>
+    </string-array>
+</resources>
